@@ -11,4 +11,5 @@ model Sum {
   a           Int
   b           Int
   result      Int
+  js          String
 }
