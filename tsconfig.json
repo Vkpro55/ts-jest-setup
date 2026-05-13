@@ -7,12 +7,10 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "esnext",
     "target": "esnext",
     "types": [],
-    "moduleResolution": "NodeNext",
-    "noEmit": true,
-    "allowImportingTsExtensions": true,
+    "ignoreDeprecations": "6.0",
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
